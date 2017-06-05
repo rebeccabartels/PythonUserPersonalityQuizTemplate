@@ -1,0 +1,52 @@
+# Add a sprite. 
+sprite = codesters.Sprite("codesters", 0, 0)
+
+# Tell the user the topic and how to play.
+sprite.say("I am a sprite.")
+stage.wait(2)
+sprite.say("I am a sprite.")
+stage.wait(2)
+
+# Create your questions and choices.
+my_var = "This is a string."
+my_var = "This is a string."
+my_var = "This is a string."
+my_var = "This is a string."
+my_var = "This is a string."
+
+# Store all of your questions in a list.
+my_list = ["cat", "dog", "pig"]
+
+# Create an empty list.
+my_list = []
+
+# Loop through each question in the list. Ask the question and add the answer to the empty list.
+for value in my_list:
+    choice = sprite.ask("Yes or no?")
+    stage.wait(2)
+    my_list.append(my_var)
+
+# Count how many times each letter appears in the list of user answers.
+my_var = my_list.count(my_param)
+my_var = my_list.count(my_param)
+my_var = my_list.count(my_param)
+my_var = my_list.count(my_param)
+
+# Put that in a list and get the highest result.
+my_list = [1, 2, 3]
+my_var = max(my_list)
+
+# Test for the result. Create the code that you want to run for each result.
+if choice == "yes":
+    sprite.say("I am a sprite.")
+    # You can also add sprites, backgrounds, and actions to the results.
+if choice == "yes":
+    sprite.say("I am a sprite.")
+    # Add your code here.
+if choice == "yes":
+    sprite.say("I am a sprite.")
+    # Add your code here.
+if choice == "yes":
+    sprite.say("I am a sprite.")
+    # Add your code here.
+
